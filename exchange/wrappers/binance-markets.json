@@ -1,7 +1,7 @@
 {
   "assets": [
-    "NULS",
     "BNB",
+    "NULS",
     "NEO",
     "LINK",
     "IOTA",
@@ -20,7 +20,6 @@
     "BQX",
     "QTUM",
     "BNT",
-    "DNT",
     "SNM",
     "STRAT",
     "ZRX",
@@ -40,18 +39,21 @@
     "ARDR",
     "ARK",
     "ARN",
+    "ARPA",
     "ATOM",
+    "BAND",
     "BAT",
     "BCD",
-    "BCHABC",
+    "BCH",
     "BCPT",
+    "BEAM",
     "BGBP",
     "BLZ",
     "BRD",
-    "BTCB",
     "BTG",
     "BTS",
     "BTT",
+    "BUSD",
     "CDT",
     "CELR",
     "CHZ",
@@ -59,24 +61,29 @@
     "CND",
     "COCOS",
     "COS",
+    "COTI",
+    "CTXC",
     "CVC",
     "DASH",
     "DATA",
     "DCR",
     "DENT",
-    "DGD",
     "DLT",
+    "DNT",
     "DOCK",
     "DOGE",
+    "DREP",
     "DUSK",
     "EDO",
     "ELF",
     "ENG",
     "ENJ",
     "ERD",
+    "EUR",
     "EVX",
     "FET",
     "FTM",
+    "FTT",
     "FUEL",
     "GNT",
     "GO",
@@ -84,21 +91,25 @@
     "GTO",
     "GVT",
     "GXS",
+    "HBAR",
     "HC",
     "HOT",
     "ICX",
     "INS",
     "IOST",
     "IOTX",
+    "KAVA",
     "KEY",
     "KMD",
     "LEND",
     "LOOM",
     "LRC",
     "LSK",
+    "LTO",
     "LUN",
     "MANA",
     "MATIC",
+    "MBL",
     "MDA",
     "MFT",
     "MITH",
@@ -109,8 +120,10 @@
     "NAV",
     "NCASH",
     "NEBL",
+    "NKN",
     "NPXS",
     "NXS",
+    "OGN",
     "ONE",
     "ONG",
     "ONT",
@@ -136,34 +149,41 @@
     "RVN",
     "SC",
     "SKY",
+    "SOL",
     "STEEM",
     "STORJ",
     "STORM",
+    "STPT",
+    "STX",
     "SYS",
+    "TCT",
     "TFUEL",
     "THETA",
     "TNB",
     "TNT",
     "TOMO",
+    "TROY",
     "TRX",
-    "TUSDB",
     "TUSD",
     "USDC",
-    "USDSB",
     "USDS",
+    "USDT",
     "VET",
     "VIA",
     "VIB",
     "VIBE",
+    "VITE",
     "WABI",
     "WAN",
     "WAVES",
     "WIN",
     "WPR",
+    "WRX",
     "XEM",
     "XLM",
     "XMR",
     "XRP",
+    "XTZ",
     "XZC",
     "YOYO",
     "ZEC",
@@ -171,29 +191,24 @@
     "ZIL"
   ],
   "currencies": [
-    "BNB",
     "BTC",
     "ETH",
     "USDT",
-    "PAX",
+    "BNB",
+    "BUSD",
     "TUSD",
     "USDC",
-    "USDS",
+    "PAX",
+    "BKRW",
+    "EUR",
+    "NGN",
+    "RUB",
+    "TRY",
+    "ZAR",
     "TRX",
     "XRP"
   ],
   "markets": [
-    {
-      "pair": [
-        "BNB",
-        "NULS"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
     {
       "pair": [
         "BTC",
@@ -267,7 +282,7 @@
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.000001,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -388,7 +403,7 @@
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.000001,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -438,17 +453,6 @@
     },
     {
       "pair": [
-        "ETH",
-        "DNT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "SNM"
       ],
@@ -456,28 +460,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "SNM"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "SNGLS"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
       }
     },
     {
@@ -542,7 +524,7 @@
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.000001,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -607,8 +589,8 @@
         "STRAT"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -641,7 +623,7 @@
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.000001,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -652,7 +634,7 @@
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.000001,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -680,6 +662,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "ADA"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "ADA"
       ],
@@ -687,17 +680,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "ADA"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
       }
     },
     {
@@ -735,17 +717,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "ADX"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "ADX"
       ],
@@ -768,23 +739,12 @@
     },
     {
       "pair": [
-        "BNB",
-        "AE"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "AE"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -849,9 +809,20 @@
         "AION"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "AION"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
       }
     },
     {
@@ -863,6 +834,17 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "AION"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -882,9 +864,20 @@
         "ALGO"
       ],
       "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "ALGO"
+      ],
+      "minimalOrder": {
         "amount": 0.01,
-        "price": 1e-7,
-        "order": 0.001
+        "price": 0.0001,
+        "order": 1
       }
     },
     {
@@ -893,8 +886,8 @@
         "ALGO"
       ],
       "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
+        "amount": 0.01,
+        "price": 0.0001,
         "order": 1
       }
     },
@@ -904,19 +897,8 @@
         "ALGO"
       ],
       "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "ALGO"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
+        "amount": 0.01,
+        "price": 0.0001,
         "order": 1
       }
     },
@@ -926,20 +908,9 @@
         "ALGO"
       ],
       "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
+        "amount": 0.01,
+        "price": 0.0001,
         "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "AMB"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -988,39 +959,6 @@
     },
     {
       "pair": [
-        "PAX",
-        "ANKR"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "ANKR"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "ANKR"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "ANKR"
       ],
@@ -1028,17 +966,6 @@
         "amount": 1,
         "price": 0.000001,
         "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "APPC"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -1061,17 +988,6 @@
         "amount": 1,
         "price": 1e-7,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "ARDR"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -1102,8 +1018,8 @@
         "ARK"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -1138,6 +1054,39 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "ARPA"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "ARPA"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "ARPA"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
       }
     },
     {
@@ -1175,7 +1124,7 @@
     },
     {
       "pair": [
-        "PAX",
+        "BUSD",
         "ATOM"
       ],
       "minimalOrder": {
@@ -1220,7 +1169,7 @@
     {
       "pair": [
         "BNB",
-        "BAT"
+        "BAND"
       ],
       "minimalOrder": {
         "amount": 0.1,
@@ -1231,7 +1180,7 @@
     {
       "pair": [
         "BTC",
-        "BAT"
+        "BAND"
       ],
       "minimalOrder": {
         "amount": 1,
@@ -1241,145 +1190,189 @@
     },
     {
       "pair": [
-        "ETH",
-        "BAT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "BAT"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "BAT"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "BAT"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
-        "BAT"
+        "BAND"
       ],
       "minimalOrder": {
         "amount": 0.01,
         "price": 0.0001,
-        "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "BCD"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "BCD"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.00001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "BCHABC"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "BCHABC"
-      ],
-      "minimalOrder": {
-        "amount": 0.00001,
-        "price": 0.01,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "BCHABC"
-      ],
-      "minimalOrder": {
-        "amount": 0.00001,
-        "price": 0.01,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "BCHABC"
-      ],
-      "minimalOrder": {
-        "amount": 0.00001,
-        "price": 0.01,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDT",
-        "BCHABC"
-      ],
-      "minimalOrder": {
-        "amount": 0.00001,
-        "price": 0.01,
         "order": 10
       }
     },
     {
       "pair": [
         "BNB",
-        "BCPT"
+        "BAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "BAT"
       ],
       "minimalOrder": {
         "amount": 1,
-        "price": 0.000001,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "BAT"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "TUSD",
+        "BAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDC",
+        "BAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "BAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "BCD"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "BCD"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.00001,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.000001,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "PAX",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TUSD",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDC",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "BCH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 10
       }
     },
     {
@@ -1406,8 +1399,8 @@
     },
     {
       "pair": [
-        "PAX",
-        "BCPT"
+        "BNB",
+        "BEAM"
       ],
       "minimalOrder": {
         "amount": 0.1,
@@ -1417,24 +1410,24 @@
     },
     {
       "pair": [
-        "TUSD",
-        "BCPT"
+        "BTC",
+        "BEAM"
       ],
       "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
+        "amount": 0.01,
+        "price": 1e-7,
+        "order": 0.001
       }
     },
     {
       "pair": [
-        "USDC",
-        "BCPT"
+        "USDT",
+        "BEAM"
       ],
       "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -1483,6 +1476,28 @@
     },
     {
       "pair": [
+        "BKRW",
+        "BNB"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BNB"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "BNB"
       ],
@@ -1494,12 +1509,56 @@
     },
     {
       "pair": [
+        "EUR",
+        "BNB"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "NGN",
+        "BNB"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "PAX",
         "BNB"
       ],
       "minimalOrder": {
         "amount": 0.01,
         "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "RUB",
+        "BNB"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TRY",
+        "BNB"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.01,
         "order": 1
       }
     },
@@ -1527,12 +1586,12 @@
     },
     {
       "pair": [
-        "USDS",
+        "ZAR",
         "BNB"
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.0001,
+        "price": 0.01,
         "order": 1
       }
     },
@@ -1545,6 +1604,28 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BNT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "BNT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -1582,13 +1663,46 @@
     },
     {
       "pair": [
-        "BTC",
-        "BTCB"
+        "BKRW",
+        "BTC"
       ],
       "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
-        "order": 0.001
+        "amount": 0.000001,
+        "price": 1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "EUR",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "NGN",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 1,
+        "order": 1
       }
     },
     {
@@ -1599,6 +1713,28 @@
       "minimalOrder": {
         "amount": 0.000001,
         "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "RUB",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TRY",
+        "BTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.000001,
+        "price": 1,
         "order": 1
       }
     },
@@ -1626,12 +1762,12 @@
     },
     {
       "pair": [
-        "USDS",
+        "ZAR",
         "BTC"
       ],
       "minimalOrder": {
         "amount": 0.000001,
-        "price": 0.01,
+        "price": 1,
         "order": 1
       }
     },
@@ -1644,28 +1780,6 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "BTG"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "BTS"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -1677,6 +1791,17 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BTS"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
       }
     },
     {
@@ -1703,13 +1828,13 @@
     },
     {
       "pair": [
-        "BTC",
+        "BUSD",
         "BTT"
       ],
       "minimalOrder": {
         "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
+        "price": 1e-7,
+        "order": 1
       }
     },
     {
@@ -1769,6 +1894,61 @@
     },
     {
       "pair": [
+        "NGN",
+        "BUSD"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "RUB",
+        "BUSD"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TRY",
+        "BUSD"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "BUSD"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "ZAR",
+        "BUSD"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "BTC",
         "CDT"
       ],
@@ -1857,17 +2037,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "CMT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "CMT"
       ],
@@ -1890,17 +2059,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "CND"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "CND"
       ],
@@ -1908,17 +2066,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "CND"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
       }
     },
     {
@@ -1990,12 +2137,56 @@
     {
       "pair": [
         "BNB",
-        "CVC"
+        "COTI"
       ],
       "minimalOrder": {
         "amount": 1,
         "price": 0.000001,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "COTI"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "COTI"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "CTXC"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "CTXC"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -2051,6 +2242,17 @@
         "amount": 0.001,
         "price": 0.000001,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "DASH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
       }
     },
     {
@@ -2088,6 +2290,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "DATA"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "DATA"
       ],
@@ -2095,6 +2308,17 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "DATA"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
       }
     },
     {
@@ -2121,17 +2345,6 @@
     },
     {
       "pair": [
-        "BTC",
-        "DENT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
         "ETH",
         "DENT"
       ],
@@ -2150,39 +2363,6 @@
         "amount": 1,
         "price": 1e-7,
         "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "DGD"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "DGD"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.00001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "DLT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -2275,34 +2455,34 @@
     },
     {
       "pair": [
-        "PAX",
-        "DOGE"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "DOGE"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "DOGE"
       ],
       "minimalOrder": {
         "amount": 1,
         "price": 1e-7,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "DREP"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "DREP"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
         "order": 10
       }
     },
@@ -2330,28 +2510,6 @@
     },
     {
       "pair": [
-        "PAX",
-        "DUSK"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "DUSK"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "DUSK"
       ],
@@ -2367,8 +2525,8 @@
         "EDO"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -2451,6 +2609,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "ENJ"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "ENJ"
       ],
@@ -2495,6 +2664,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "EOS"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "PAX",
         "EOS"
       ],
@@ -2561,28 +2741,6 @@
     },
     {
       "pair": [
-        "PAX",
-        "ERD"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "ERD"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "ERD"
       ],
@@ -2605,6 +2763,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "ETC"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "ETC"
       ],
@@ -2612,39 +2781,6 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "ETC"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "ETC"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "ETC"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.001,
-        "order": 1
       }
     },
     {
@@ -2660,7 +2796,62 @@
     },
     {
       "pair": [
+        "BKRW",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "EUR",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "PAX",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "RUB",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TRY",
         "ETH"
       ],
       "minimalOrder": {
@@ -2689,6 +2880,39 @@
         "amount": 0.00001,
         "price": 0.01,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "ZAR",
+        "ETH"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.1,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "EUR"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "EUR"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -2741,163 +2965,130 @@
         "FET"
       ],
       "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "FTM"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "FTM"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "FTM"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "FTT"
+      ],
+      "minimalOrder": {
         "amount": 0.01,
         "price": 0.0001,
-        "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "FTM"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
         "order": 1
       }
     },
     {
       "pair": [
         "BTC",
-        "FTM"
+        "FTT"
       ],
       "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "FTM"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "FTM"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "FTM"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDT",
-        "FTM"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "FUEL"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "FUEL"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "FUN"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "USDT",
-        "FUN"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "GNT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "GNT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "GNT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "GO"
-      ],
-      "minimalOrder": {
-        "amount": 1,
+        "amount": 0.01,
         "price": 1e-7,
-        "order": 1
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "FTT"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "FUEL"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "FUN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "FUN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "GNT"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "GNT"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.01
       }
     },
     {
@@ -2968,39 +3159,6 @@
     },
     {
       "pair": [
-        "PAX",
-        "GTO"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "GTO"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "GTO"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "GTO"
       ],
@@ -3038,8 +3196,8 @@
         "GXS"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -3052,6 +3210,39 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "HBAR"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "HBAR"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "HBAR"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
       }
     },
     {
@@ -3074,6 +3265,17 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "HC"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -3137,9 +3339,20 @@
         "ICX"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "ICX"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
       }
     },
     {
@@ -3170,8 +3383,8 @@
         "INS"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -3276,13 +3489,46 @@
     },
     {
       "pair": [
+        "USDT",
+        "IOTX"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "KAVA"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "BTC",
-        "KEY"
+        "KAVA"
       ],
       "minimalOrder": {
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "KAVA"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -3349,6 +3595,17 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "LINK"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
       }
     },
     {
@@ -3485,12 +3742,34 @@
     },
     {
       "pair": [
+        "USDT",
+        "LSK"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
         "BNB",
         "LTC"
       ],
       "minimalOrder": {
         "amount": 0.001,
         "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "LTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
         "order": 1
       }
     },
@@ -3551,6 +3830,39 @@
     },
     {
       "pair": [
+        "BNB",
+        "LTO"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "LTO"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "LTO"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
         "BTC",
         "LUN"
       ],
@@ -3558,17 +3870,6 @@
         "amount": 0.01,
         "price": 1e-7,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "LUN"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
-        "order": 0.01
       }
     },
     {
@@ -3629,12 +3930,45 @@
     {
       "pair": [
         "BNB",
+        "MBL"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-7,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "MBL"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "MBL"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
         "MCO"
       ],
       "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
+        "amount": 0.001,
+        "price": 0.001,
+        "order": 10
       }
     },
     {
@@ -3668,17 +4002,6 @@
         "amount": 1,
         "price": 1e-7,
         "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "MFT"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
       }
     },
     {
@@ -3749,23 +4072,12 @@
     },
     {
       "pair": [
-        "ETH",
-        "MTH"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "MTL"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -3815,6 +4127,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "NANO"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "NANO"
       ],
@@ -3837,17 +4160,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "NAS"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "NAS"
       ],
@@ -3870,52 +4182,8 @@
     },
     {
       "pair": [
-        "BNB",
-        "NAV"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "NAV"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "NAV"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "NCASH"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "NCASH"
       ],
       "minimalOrder": {
         "amount": 1,
@@ -3951,8 +4219,8 @@
         "NEBL"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -3975,6 +4243,17 @@
       "minimalOrder": {
         "amount": 0.01,
         "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "NEO"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.001,
         "order": 1
       }
     },
@@ -4024,8 +4303,19 @@
     },
     {
       "pair": [
+        "BNB",
+        "NKN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "BTC",
-        "NPXS"
+        "NKN"
       ],
       "minimalOrder": {
         "amount": 1,
@@ -4042,17 +4332,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "NPXS"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
       }
     },
     {
@@ -4079,23 +4358,12 @@
     },
     {
       "pair": [
-        "BNB",
-        "NXS"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "NXS"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -4124,12 +4392,34 @@
     {
       "pair": [
         "BNB",
-        "OMG"
+        "OGN"
       ],
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "OGN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "OGN"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -4163,28 +4453,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "ONE"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "ONE"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
       }
     },
     {
@@ -4262,6 +4530,17 @@
         "amount": 0.01,
         "price": 1e-7,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "ONT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
       }
     },
     {
@@ -4277,28 +4556,6 @@
     },
     {
       "pair": [
-        "PAX",
-        "ONT"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "ONT"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "ONT"
       ],
@@ -4306,17 +4563,6 @@
         "amount": 0.01,
         "price": 0.0001,
         "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "OST"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
       }
     },
     {
@@ -4387,35 +4633,13 @@
     },
     {
       "pair": [
-        "USDC",
-        "PERL"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "PERL"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
+        "amount": 0.1,
+        "price": 0.00001,
         "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "PHB"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
       }
     },
     {
@@ -4427,17 +4651,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "PHB"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
       }
     },
     {
@@ -4453,17 +4666,6 @@
     },
     {
       "pair": [
-        "USDC",
-        "PHB"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BNB",
         "PIVX"
       ],
@@ -4479,8 +4681,8 @@
         "PIVX"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -4493,17 +4695,6 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "POA"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -4537,28 +4728,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "POE"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "POLY"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
       }
     },
     {
@@ -4611,8 +4780,8 @@
         "PPT"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -4651,17 +4820,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "QLC"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "QLC"
       ],
@@ -4680,17 +4838,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "QSP"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
       }
     },
     {
@@ -4723,6 +4870,17 @@
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "QTUM"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.001,
         "order": 1
       }
     },
@@ -4739,17 +4897,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "RCN"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "RCN"
       ],
@@ -4768,17 +4915,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "RDN"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
       }
     },
     {
@@ -4827,41 +4963,107 @@
     },
     {
       "pair": [
-        "BNB",
+        "BTC",
         "REP"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.000001,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "REP"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.00001,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "REQ"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "REQ"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "RLC"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "RLC"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "RLC"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.000001,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "RLC"
       ],
       "minimalOrder": {
         "amount": 0.01,
         "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "RVN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
         "order": 1
       }
     },
     {
       "pair": [
         "BTC",
-        "REP"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "REP"
-      ],
-      "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.00001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "REQ"
+        "RVN"
       ],
       "minimalOrder": {
         "amount": 1,
@@ -4871,19 +5073,8 @@
     },
     {
       "pair": [
-        "ETH",
-        "REQ"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "RLC"
+        "BUSD",
+        "RVN"
       ],
       "minimalOrder": {
         "amount": 0.1,
@@ -4893,46 +5084,13 @@
     },
     {
       "pair": [
-        "BTC",
-        "RLC"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "RLC"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "BNB",
+        "USDT",
         "RVN"
       ],
       "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "RVN"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
       }
     },
     {
@@ -4970,23 +5128,12 @@
     },
     {
       "pair": [
-        "BNB",
-        "SKY"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "SKY"
       ],
       "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
       }
     },
@@ -5015,6 +5162,39 @@
     {
       "pair": [
         "BNB",
+        "SOL"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "SOL"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "SOL"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BNB",
         "STEEM"
       ],
       "minimalOrder": {
@@ -5114,12 +5294,100 @@
     {
       "pair": [
         "BNB",
-        "SYS"
+        "STPT"
       ],
       "minimalOrder": {
         "amount": 1,
         "price": 0.000001,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "STPT"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "STPT"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "STRAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "STRAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "STRAT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "STX"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "STX"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "STX"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
       }
     },
     {
@@ -5142,6 +5410,28 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "TCT"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "TCT"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 10
       }
     },
     {
@@ -5168,39 +5458,6 @@
     },
     {
       "pair": [
-        "PAX",
-        "TFUEL"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "TFUEL"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "TFUEL"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "TFUEL"
       ],
@@ -5267,17 +5524,6 @@
     },
     {
       "pair": [
-        "ETH",
-        "TNB"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "TNT"
       ],
@@ -5322,6 +5568,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "TOMO"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "USDC",
         "TOMO"
       ],
@@ -5345,6 +5602,39 @@
     {
       "pair": [
         "BNB",
+        "TROY"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-7,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "TROY"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "TROY"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-7,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
         "TRX"
       ],
       "minimalOrder": {
@@ -5362,6 +5652,17 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "TRX"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
       }
     },
     {
@@ -5427,17 +5728,6 @@
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "TUSDB"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
         "order": 1
       }
     },
@@ -5487,61 +5777,6 @@
     },
     {
       "pair": [
-        "USDS",
-        "USDSB"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDT",
-        "USDSB"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 10
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "USDS"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "TUSD",
-        "USDS"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
-        "USDS"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "USDT",
         "USDS"
       ],
@@ -5553,57 +5788,90 @@
     },
     {
       "pair": [
-        "BNB",
-        "VET"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "VET"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "VET"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "USDT",
-        "VET"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 10
-      }
-    },
-    {
-      "pair": [
-        "BNB",
-        "VIA"
+        "RUB",
+        "USDT"
       ],
       "minimalOrder": {
         "amount": 0.1,
-        "price": 0.00001,
+        "price": 0.001,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TRY",
+        "USDT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "ZAR",
+        "USDT"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "VET"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-7,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "VET"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "VET"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "VET"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "VET"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 10
       }
     },
     {
@@ -5612,20 +5880,9 @@
         "VIA"
       ],
       "minimalOrder": {
-        "amount": 0.01,
-        "price": 1e-7,
+        "amount": 1,
+        "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "VIA"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.000001,
-        "order": 0.01
       }
     },
     {
@@ -5653,23 +5910,34 @@
     {
       "pair": [
         "ETH",
-        "VIBE"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-7,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "ETH",
         "VIB"
       ],
       "minimalOrder": {
         "amount": 1,
         "price": 1e-8,
         "order": 0.01
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "VITE"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "VITE"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
       }
     },
     {
@@ -5773,6 +6041,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "WAVES"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "WAVES"
       ],
@@ -5780,17 +6059,6 @@
         "amount": 0.01,
         "price": 0.000001,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "WAVES"
-      ],
-      "minimalOrder": {
-        "amount": 0.01,
-        "price": 0.0001,
-        "order": 1
       }
     },
     {
@@ -5835,17 +6103,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 1
-      }
-    },
-    {
-      "pair": [
-        "BTC",
-        "WIN"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.001
       }
     },
     {
@@ -5894,13 +6151,35 @@
     },
     {
       "pair": [
-        "ETH",
-        "WPR"
+        "BNB",
+        "WRX"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "WRX"
       ],
       "minimalOrder": {
         "amount": 1,
         "price": 1e-8,
-        "order": 0.01
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "WRX"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
       }
     },
     {
@@ -5916,6 +6195,17 @@
     },
     {
       "pair": [
+        "USDT",
+        "WTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
         "BNB",
         "XEM"
       ],
@@ -5971,40 +6261,29 @@
     },
     {
       "pair": [
-        "ETH",
-        "XLM"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "PAX",
+        "BUSD",
         "XLM"
       ],
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
         "order": 1
+      }
+    },
+    {
+      "pair": [
+        "ETH",
+        "XLM"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.01
       }
     },
     {
       "pair": [
         "TUSD",
-        "XLM"
-      ],
-      "minimalOrder": {
-        "amount": 0.1,
-        "price": 0.00001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
-        "USDC",
         "XLM"
       ],
       "minimalOrder": {
@@ -6044,6 +6323,17 @@
         "amount": 0.001,
         "price": 0.000001,
         "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "XMR"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
       }
     },
     {
@@ -6092,6 +6382,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "XRP"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "XRP"
       ],
@@ -6103,12 +6404,45 @@
     },
     {
       "pair": [
+        "EUR",
+        "XRP"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "PAX",
         "XRP"
       ],
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "RUB",
+        "XRP"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "TRY",
+        "XRP"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.001,
         "order": 1
       }
     },
@@ -6142,6 +6476,50 @@
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "XTZ"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "XTZ"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 1e-7,
+        "order": 0.001
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "XTZ"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "XTZ"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
         "order": 10
       }
     },
@@ -6174,7 +6552,7 @@
       ],
       "minimalOrder": {
         "amount": 0.01,
-        "price": 0.000001,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -6191,6 +6569,17 @@
     },
     {
       "pair": [
+        "USDT",
+        "XZC"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
         "XRP",
         "XZC"
       ],
@@ -6202,17 +6591,6 @@
     },
     {
       "pair": [
-        "BNB",
-        "YOYO"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 0.000001,
-        "order": 1
-      }
-    },
-    {
-      "pair": [
         "BTC",
         "YOYO"
       ],
@@ -6220,17 +6598,6 @@
         "amount": 1,
         "price": 1e-8,
         "order": 0.001
-      }
-    },
-    {
-      "pair": [
-        "ETH",
-        "YOYO"
-      ],
-      "minimalOrder": {
-        "amount": 1,
-        "price": 1e-8,
-        "order": 0.01
       }
     },
     {
@@ -6257,6 +6624,17 @@
     },
     {
       "pair": [
+        "BUSD",
+        "ZEC"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "ETH",
         "ZEC"
       ],
@@ -6264,17 +6642,6 @@
         "amount": 0.001,
         "price": 0.00001,
         "order": 0.01
-      }
-    },
-    {
-      "pair": [
-        "PAX",
-        "ZEC"
-      ],
-      "minimalOrder": {
-        "amount": 0.00001,
-        "price": 0.01,
-        "order": 1
       }
     },
     {
@@ -6327,8 +6694,8 @@
         "ZEN"
       ],
       "minimalOrder": {
-        "amount": 0.001,
-        "price": 0.000001,
+        "amount": 0.01,
+        "price": 1e-7,
         "order": 0.001
       }
     },
@@ -6428,6 +6795,39 @@
       "minimalOrder": {
         "amount": 0.00001,
         "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "REN"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "NKN"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "BTS"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
         "order": 10
       }
     }

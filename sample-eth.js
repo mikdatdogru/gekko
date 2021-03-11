@@ -101,7 +101,7 @@ config.paperTrader = {
 }
 
 config.performanceAnalyzer = {
-  shortTrading: true,
+  shortTrading: false,
   enabled: true,
   riskFreeReturn: 5
 }
@@ -307,7 +307,7 @@ config.adviceWriter = {
 }
 
 config.backtestResultExporter = {
-  enabled: false,
+  enabled: true,
   writeToDisk: true,
   data: {
     stratUpdates: false,
@@ -339,7 +339,7 @@ config.sqlite = {
 config.postgresql = {
   path: 'plugins/postgresql',
   version: 0.1,
-  connectionString: 'postgres://gekkodbuser:1234@localhost:5432', // if default port
+  connectionString: 'postgres://gekkodbuser:hola@localhost:5432', // if default port
   database: null, // if set, we'll put all tables into a single database.
   schema: 'public',
   dependencies: [{
@@ -369,8 +369,10 @@ config.mongodb = {
 config.backtest = {
 //  daterange: 'scan',
  daterange: {
+//   from: "2018-01-01T00:00:00+02:00",
+//   to: "2018-12-31T00:00:00+02:00"
    from: "2018-01-01T00:00:00+02:00",
-   to: "2018-12-31T00:00:00+02:00"
+   to: "2018-09-30T00:00:00+02:00"
 },
   batchSize: 1
 }
@@ -382,9 +384,13 @@ config.backtest = {
 config.importer = {
   daterange: {
     // NOTE: these dates are in GMT+2
-    from: "2017-12-25T00:00:00+02:00"
+    // from: "2017-12-25T00:00:00+02:00"
     //from: "2018-06-27 00:00:00"
     //to: "2018-10-05T09:00:00+02:00"
+   // from: "2018-01-01T00:00:00+02:00",
+   // to: "2018-12-31T00:00:00+02:00"
+    from: "2017-12-12T00:00:00+02:00",
+    to: "2018-10-01T00:00:00+02:00"
   }
 }
 
